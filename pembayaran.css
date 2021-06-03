@@ -1,0 +1,111 @@
+.payment-submit {
+	margin: 2% 3% 0% 50%;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.payment-submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Montserrat", sans-serif;
+	height: 100vh;
+}
+
+.payment-box {
+	height: 50%;
+	width: 60%;
+	background: #f6f8fc;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 7% 7% 7% 7%;
+}
+.foto-dokter img {
+	margin-top: 4%;
+	width: 20%;
+	height: auto;
+}
+.foto-dokter {
+	display: flex;
+	align-items: center;
+}
+.keterangan-dokter {
+	margin: 2% 0% 0% 5%;
+}
+p.nama-dokter {
+	margin-top: 7%;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 18px;
+}
+p.jenis-dokter {
+	font-style: italic;
+	font-size: 15px;
+}
+.payment-desc {
+	margin-top: 10%;
+}
+.biaya-sesi,
+.bayar-sesi {
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.submit-payment button {
+	margin-top: 10%;
+	width: 100%;
+	height: 15%;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(0, 84, 80);
+	color: white;
+	cursor: pointer;
+}
+.left-description {
+	position: absolute;
+	top: 26%;
+	left: 3%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.description-box {
+	background-color: #f6f8fc;
+	padding: 3% 5% 2% 5%;
+	height: auto;
+	width: 80%;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.description-box h3,
+p,
+img {
+	text-align: center;
+	margin-bottom: 3%;
+}
+.description-box img {
+	width: 10%;
+	height: 15%;
+}
+.list-manfaat img {
+	width: 10%;
+	height: 10%;
+}
+.list-manfaat1,
+.list-manfaat2,
+.list-manfaat3 {
+	display: flex;
+	padding: 1%;
+	width: auto;
+	height: 10%;
+	align-items: center;
+}
+.list-manfaat1 p,
+.list-manfaat2 p,
+.list-manfaat3 p {
+	margin-top: 1%;
+	margin-left: 3%;
+}
+.img-box img {
+	margin-left: 44%;
+}

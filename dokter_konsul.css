@@ -1,0 +1,49 @@
+.list-pasien {
+	margin: 10% 10% 10% 10%;
+	height: 50vh;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* .konsul-container {
+	margin-right: 0;
+	margin-left: 5%;
+} */
+.pasien-container h3 {
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+.pasien-box {
+	margin: 1.5% 2% 0 14%;
+	padding: 2vh;
+	width: 70%;
+	height: 120%;
+	display: flex;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.keterangan-pasien {
+	margin-left: 1.5%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+select {
+	/* box-shadow: 0 5px 10px rgb(0, 0, 0); */
+	width: 130px;
+	height: 38px;
+	font-size: 2vh;
+	padding: 1vh;
+	background: rgb(0, 84, 80);
+	color: white;
+	border: 0;
+}
+.custom-select {
+	top: 34.7%;
+	left: 66%;
+	position: absolute;
+}
