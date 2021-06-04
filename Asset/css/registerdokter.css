@@ -1,0 +1,40 @@
+.main-register-dokter{
+    position: relative;
+    height: 100vh;
+    top: 20vh;
+    left: 10%;
+}
+.judul-logo,.check-logo{
+    display: flex;
+}
+.check-logo {
+    padding: 0 0px 10px 10px;
+}
+.check-logo p{
+    padding: 0 0px 0 10px;
+}
+.keuntungan{
+    padding: 15px 0 0 0;
+}
+
+.content-keuntungan{
+    padding: 15px 0 15px 0;
+}
+.content-keuntungan i{
+    padding: 0 0 10px 0;
+    font-size: 18px;
+}
+.content-langkah{
+    flex-direction: column;
+}
+.content-langkah i{
+    padding: 0 px 10px 10px;
+    font-size: 18px;
+}
+.content-langkah p{
+    padding: 0 10px 0 10px;
+}
+.langkah-langkah h2{
+  padding: 0 0 20px 0;
+  
+}

@@ -1,0 +1,159 @@
+*{
+  font-family: 'poppins';
+}
+/* start section main */
+.main-cari{
+  position: relative;
+  top: 10vh;
+  height: 30vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+.content-text-cari{
+  position: absolute;
+  top: 2vh;
+  left: 10%;
+  width: 38%;
+}
+.content-text-cari h2{
+  font-size: 30px;
+  color:rgb(0, 84, 80);
+  font-family: 'poppins';
+  font: 200;
+}
+.check{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px 0 0 0;
+  justify-content: space-between;
+}
+.check i {
+  color:rgb(6, 132, 102);
+  padding: 0 5px 0 0;
+}
+
+/* seacrh */
+
+.input-cari{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+
+}
+.form-cari{
+  margin: 30px 0 0 0;
+
+}
+.daerah, .dokter{
+  height:5vh;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 25px;
+  background-color: rgb(233, 231, 231);
+  border-radius: 10px;
+}
+.daerah{
+  width: 20%;
+}
+.dokter{
+  width: 40%;
+}
+.submit{
+  width: 10%;
+  height:5vh;
+  border: none;
+  background-color: rgb(6, 132, 102);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit:active {
+	transform: scale(0.95);
+}
+
+.form-cari input::placeholder{
+  font-size: 15px;
+  font-family: 'poppins';
+}
+
+/* end */
+.box1 span{
+  font-size: 42.5px;
+  color: rgb(117, 117, 117);
+  font-weight:lighter;
+  padding: 0 15px 0 0;
+}
+
+/* end section main */
+/* start section kategori  */
+.kategori{
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.pilih{
+  display: flex;
+  position: absolute;
+  align-items:baseline;
+  left: 10%;
+  width: 100%;
+  color:rgb(24, 104, 85);
+}
+.pilih h2{
+  padding:0 41% 0 0;
+  font-size: 33px;
+}
+.pilih a {
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(24, 104, 85);
+}
+.spesialis img {
+  height: 60%;
+  width: 90%;
+  border-radius: 25px;
+  background-size: cover;
+}
+.spesialis p {
+  display: flex;
+  justify-content: center;
+}
+/* start grid */
+.spesialis{
+  position: absolute;
+  width: 100%;
+  top:10vh;
+  left:11%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15%,20%));
+  grid-template-areas: 
+  "sp1 sp2 sp3"
+  "sp4 sp5 sp6"; 
+  gap: 0px;
+}
+.sp1{
+  grid-area: sp1;
+}
+.sp2{
+  grid-area: sp2;
+}
+.sp3{
+  grid-area: sp3;
+}
+.sp4{
+  grid-area: sp4;
+}
+.sp5{
+  grid-area: sp5;
+}
+.sp6{
+  grid-area: sp6;
+}
+/* end grid */
+/* end section kategori */
+/* footer */

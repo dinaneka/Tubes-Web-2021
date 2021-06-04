@@ -1,0 +1,83 @@
+.main-dokter{
+    position: relative;
+    top: 10vh;
+    height: 75vh;
+    width: 100%;
+}
+.filter-hari{
+    font-size: 13px;
+    border: 1px solid rgb(209, 206, 206);
+    padding: 10px;
+    width: 13%;
+    position: absolute;
+    left: 10%;
+}
+.filter-hari p{
+    font-size: 15px;
+}
+.filter-hari form input{
+    margin: 8px 5px 0 0;
+}
+.filter-waktu .akal{
+    margin: 0 0 0 -10px;
+}
+.filter-waktu{
+    font-size: 13px;
+    border: 1px solid rgb(209, 206, 206);
+    padding: 10px;
+    width: 13%;
+    position: absolute;
+    left: 10%;
+    top: 30vh;
+}   
+.filter-waktu form input{
+    width: 90%;
+}
+.filter-waktu .title-waktu{
+    font-size: 15px;
+}
+.filter-waktu span {
+    padding: 0 0 0 60px;
+    margin: 0 -50px 0 0;
+}
+/* main content */
+.content-dokter{    
+    position: absolute;
+    left: 25.5%;
+    width: 50%;
+    height: 50vh;
+    overflow-x: hidden;
+}
+.card{
+    border: 1px solid rgb(209, 206, 206);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    margin: 0 5% 0 0;
+    justify-content:space-around;
+    margin: 0 0 23px 0;
+}
+.spesialis-dokter,.praktek{
+    padding: 5px 0 0 0;
+    display: flex;
+}
+.spesialis-dokter,.praktek{
+    font-size: 13px;
+}
+.spesialis-dokter i,.praktek i{
+    font-size: 13px;
+    padding: 0 10px 0 0;
+}
+.gambar{
+    width: 10%;
+    min-width: 10%;
+    background-color: aqua;
+}
+.gambar img{
+    /* border-radius: 50%; */
+    width: 100%;
+    max-width: 70%;
+    max-height: 50%;
+    display: block;
+}
+/* end */

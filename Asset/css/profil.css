@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap");
+ 
+.main-profil{
+  width: 60%;
+  padding: 20px;
+  height: 100vh;
+  /* background: cadetblue; */
+  position: relative;
+  top: 10vh;
+  left: 19%;
+}
+
+.nama-profil {
+  display:flex;
+  justify-content: center;
+  font-family: "poppins";
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(0, 84, 80);
+  align-items:center;
+}
+.bagi{
+  display: flex;
+  justify-content: space-between;
+}
+.left .input-profil, .right .input-profil{
+  width: 450px ;
+}
+
+.form-group{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form-group label, .left label, .right label{
+  font-family: "poppins" ;
+  font-size: 15px;
+
+}
+.input-profil{
+  height:5vh;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgb(233, 231, 231);
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+} 
+textarea{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgb(233, 231, 231);
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn-profil{
+  font-family: 'poppins';
+  font-size: 15px;
+  color: white;
+  background-color: rgb(0, 84, 80);
+  outline: none;
+  border: none;
+  width: 135px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}

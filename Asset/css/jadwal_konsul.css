@@ -1,0 +1,78 @@
+.list-konsul {
+	margin: 10% 10% 10% 10%;
+	height: 50vh;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* .konsul-container {
+	margin-right: 0;
+	margin-left: 5%;
+} */
+.konsul-container h3 {
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+.konsul-box {
+	margin: 1.5% 2% 0 14%;
+	width: 70%;
+	height: 70%;
+	display: flex;
+	border: 1px solid black;
+}
+.konsul-img {
+	margin-bottom: 0;
+	width: 10%;
+	height: 10%;
+}
+.konsul-img img {
+	margin-bottom: 0%;
+	width: 100%;
+	height: auto;
+}
+.keterangan-konsul {
+	margin-left: 1.5%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.nama-dokter-konsul {
+	margin-bottom: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.spesialis-dokter-konsul {
+	font-size: 13px;
+}
+.jadwal-konsul {
+	margin-top: 6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+p.hari-konsul {
+	font-size: 14px;
+}
+p.waktu-konsul {
+	font-size: 14px;
+}
+.btn-konsul {
+	top: 37.5%;
+	left: 63%;
+	width: 66px;
+	height: 10px;
+	position: absolute;
+}
+.btn-konsul button {
+	cursor: pointer;
+	border: none;
+	color: white;
+	background-color: rgb(0, 84, 80);
+	width: 25vh;
+	height: 5vh;
+}
